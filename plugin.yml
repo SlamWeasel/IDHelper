@@ -1,0 +1,18 @@
+main: de.SlamWeasel.IDHelper.main.Main
+version: 1.5.1
+name: IDHelper_by_SlamWeasel
+author: SlamWeasel
+
+commands:
+    idh:
+        description: Toggles the IDHelper shown in the toolbar
+        aliases: [idh, idhelper]
+    idb:
+        description: Shows the IDHelper for only the one block youre looking at using the command
+        aliases: [idb, idblock, idnow, idhere]
+    compass:
+        description: Toggles a compass in your Action bar
+        aliases: [compass, comp]
+    waypoint:
+        description: Sets a waypoint for the compass
+        aliases: [waypoint, wp]
